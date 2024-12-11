@@ -45,7 +45,7 @@ class OrderEval(object):
 
     @staticmethod
     def compute_order_score(gt_objects, pred_objects):
-        threshold = 0.8
+        threshold = 0.7
 
         for gt_object in gt_objects:
             OrderEval.object_2_string(gt_object)
